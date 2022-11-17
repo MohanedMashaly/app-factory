@@ -4,7 +4,7 @@ class CreateChats < ActiveRecord::Migration[5.0]
       t.integer :number
       t.string :token
       t.integer :messages_count
-      add_index :Chat, [:token, :number], unique: true
+      # add_index :chat, [:token, :number], unique: true
       t.timestamps
     end
   end

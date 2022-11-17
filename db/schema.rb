@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20221114165530) do
+ActiveRecord::Schema.define(version: 20221114161449) do
 
   create_table "applications", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=latin1" do |t|
     t.string   "name"
@@ -38,10 +38,8 @@ ActiveRecord::Schema.define(version: 20221114165530) do
     t.string   "title"
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
-    t.index ["chat_number"], name: "fk_rails_a34a40b6dd", using: :btree
     t.index ["token", "chat_number", "number"], name: "index_messages_on_token_and_chat_number_and_number", unique: true, using: :btree
   end
 
   add_foreign_key "chats", "applications", column: "token", primary_key: "token"
-  add_foreign_key "messages", "applications", column: "token", primary_key: "token"
 end

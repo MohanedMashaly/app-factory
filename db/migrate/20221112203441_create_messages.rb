@@ -6,7 +6,7 @@ class CreateMessages < ActiveRecord::Migration[5.0]
       t.string :token
       t.string :body
       t.string  :title
-      add_index :Chat, [:token, :number, :chat_number], unique: true
+      # add_index :chats, [:token, :number, :chat_number], unique: true
       t.timestamps
     end
   end
