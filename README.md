@@ -8,9 +8,9 @@ application up and running.
 * First, clone the project using git clone "https://github.com/MohanedMashaly/app-factory".
 * Navigate to the project using cmd.
 * Install docker, to check if you have installed or not type in your cmd "docker --version".
-* write "docker build . to build the docker file".
+* type "docker build ." in your terminal to build the docker file".
 * make sure docker-compose is installed.
-* To run the whole stack, write "docker-compose up your terminal".
+* To run the whole stack, write "docker-compose up" in your terminal.
 
 ## system requirements
 * Ruby version
