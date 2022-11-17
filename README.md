@@ -12,6 +12,12 @@ application up and running.
 * make sure docker-compose is installed.
 * To run the whole stack, write "docker-compose up" in your terminal.
 
+## API docs
+* https://docs.google.com/document/d/1CwhWV5jsAKrIAjnGcutCI9ETv2gCOyYhXc8U5TlD5Y0/edit# 
+
+## Database ERD
+https://drive.google.com/file/d/1cKXifc4tsgRByYklPZ1rdjXJ_GxvbJ_u/view?usp=sharing
+
 ## system requirements
 * Ruby version
 
