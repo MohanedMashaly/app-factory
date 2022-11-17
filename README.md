@@ -12,7 +12,7 @@ application up and running.
 * make sure docker-compose is installed.
 * To run the whole stack, write "docker-compose up your terminal".
 
-
+## system requirements
 * Ruby version
 
 * System dependencies
